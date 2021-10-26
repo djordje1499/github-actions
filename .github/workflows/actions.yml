@@ -1,0 +1,14 @@
+name: Listing directory
+
+on: [push]
+
+jobs:
+  run-github-actions:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Listing directory
+        run: |
+         pwd
+         ls
+
+
